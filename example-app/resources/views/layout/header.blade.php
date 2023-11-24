@@ -8,7 +8,7 @@
                 <a href="/about" class="nav-link {{ request()->is('about')?'active':'' }}">About</a>
             </li>
             <li class="nav-item">
-                <a href="/porfolio" class="nav-link">Porfolio</a>
+                <a href="/post" class="nav-link {{ request()->is('post')?'active':'' }}">Post</a>
             </li>
             <li class="nav-item">
                 <a href="/contact" class="nav-link">Contact</a>
